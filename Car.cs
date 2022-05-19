@@ -11,7 +11,6 @@ namespace CSSTUDY3202
         int carNumber;
         DateTime inTime;
         DateTime outTime;
-
         public void SetInTime()
         {
             this.inTime = DateTime.Now;
