@@ -39,4 +39,12 @@ static void Main(string[] args)
 
 
     Hambuger nyam = new Hambuger();
+    Product productA = new Product();
+    productA.name = "포켓몬 빵";
+    productA.price = 1500;
+    Product productB = new Product() { name="소금빵", price=2000};
+
+    Product productC = new Product() { name ="보름달"};
+
+
 }
