@@ -37,4 +37,6 @@ static void Main(string[] args)
     Console.WriteLine(Math.Round(52.273));
     Console.WriteLine(Math.PI);
 
+
+    Hambuger nyam = new Hambuger();
 }
