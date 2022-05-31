@@ -99,6 +99,8 @@ static void Main(string[] args)
             students.RemoveAt(i);
         }
     }
-
-
+    Method m = new Method();
+    Console.WriteLine(m.Multi(7, 8));
+    Console.WriteLine(m.Sum(7, 8));
+    Console.WriteLine(m.Multiply(7, 8));
 }
