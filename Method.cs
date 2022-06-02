@@ -8,6 +8,8 @@ namespace CSSTUDY3202
 {
     internal class Method
     {
+        public static bool ClassVariable { get; private set; }
+
         public int Multi(int a, int b)
         {
             return a * b;
@@ -35,7 +37,24 @@ namespace CSSTUDY3202
             {
                 output *= i;
             }
+            some();
             return output;
+        }
+        static public void some()
+        {
+            Console.WriteLine(ClassVariable);
+        }
+
+        public static int ABS(int input)
+        {
+            if(input < 0)
+            {
+                return -input;
+            }
+            else
+            {
+                return input;
+            }
         }
     }
 }

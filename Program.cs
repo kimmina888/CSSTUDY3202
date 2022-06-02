@@ -103,4 +103,7 @@ static void Main(string[] args)
     Console.WriteLine(m.Multi(7, 8));
     Console.WriteLine(m.Sum(7, 8));
     Console.WriteLine(m.Multiply(7, 8));
+    Console.WriteLine(Method.ABS(100));
+    /*Console.WriteLine(m.ABS(100));*/
+    
 }
