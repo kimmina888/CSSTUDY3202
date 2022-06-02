@@ -105,5 +105,13 @@ static void Main(string[] args)
     Console.WriteLine(m.Multiply(7, 8));
     Console.WriteLine(Method.ABS(100));
     /*Console.WriteLine(m.ABS(100));*/
-    
+    Console.WriteLine(Method.ABS(100));
+
+    Console.WriteLine(MyMethod.ABS(52));
+    Console.WriteLine(MyMethod.ABS(-52));
+    Console.WriteLine(MyMethod.ABS(52.273));
+    Console.WriteLine(MyMethod.ABS(-52.273));
+    Console.WriteLine(MyMethod.ABS(222342345));
+    Console.WriteLine(MyMethod.ABS(-222342345));
+
 }
