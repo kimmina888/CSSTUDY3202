@@ -114,4 +114,25 @@ static void Main(string[] args)
     Console.WriteLine(MyMethod.ABS(222342345));
     Console.WriteLine(MyMethod.ABS(-222342345));
 
+    Product product1 = new Product("감자", 3000);
+    Product product2 = new Product("고구마", 5000);
+    Console.WriteLine(Product.counter + "개 생성");
+
+    /* Console.WriteLine("첫번째 위치");
+     Console.WriteLine(Sample.value);
+
+     Console.WriteLine("두번째 위치");
+     Sample sample = new Sample();
+
+     Console.WriteLine("세번째 위치");*/
+
+    Console.WriteLine("첫번째 위치");
+    Sample sample = new Sample();
+
+    Console.WriteLine("두번째 위치");
+    Console.WriteLine(Sample.value);
+
+    Console.WriteLine("세번째 위치");
+
+ 
 }
