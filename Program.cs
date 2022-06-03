@@ -134,5 +134,17 @@ static void Main(string[] args)
 
     Console.WriteLine("세번째 위치");
 
- 
+    Box box1 = new Box(10,10);
+    box1.width = -10;
+    Console.WriteLine("box1의 면적은 : "+box1.Area());
+
+
+    Box2 box2 = new Box2(10, 10);
+    /*box2.width = -10;*/
+    Console.WriteLine("box2의 면적은 : "+box2.Area());
+
+    Box box3 = new Box(10,10);
+    box3.width = 10;
+    box3.height = 10;
+
 }
