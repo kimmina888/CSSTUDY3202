@@ -136,7 +136,7 @@ static void Main(string[] args)
 
     Box box1 = new Box(10,10);
     box1.width = -10;
-    Console.WriteLine("box1의 면적은 : "+box1.Area());
+    Console.WriteLine("box1의 면적은 : "+box1.Area);
 
 
     Box2 box2 = new Box2(10, 10);
@@ -147,4 +147,9 @@ static void Main(string[] args)
     box3.width = 10;
     box3.height = 10;
     Console.WriteLine(box3.Area);
+
+    Fibonacci fibo = new Fibonacci();
+    Console.WriteLine(fibo.Get(1));
+    Console.WriteLine(fibo.Get(100));
+    /*Console.WriteLine(fibo.Get(1000));*/
 }

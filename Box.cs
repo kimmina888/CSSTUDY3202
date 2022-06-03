@@ -20,7 +20,7 @@ internal class Box
     }
     public int Area
     {
-        get { return this.width * this.height}
+        get { return this.width * this.height; }
     }
 
     public Box(int width, int height)
