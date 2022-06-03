@@ -146,5 +146,5 @@ static void Main(string[] args)
     Box box3 = new Box(10,10);
     box3.width = 10;
     box3.height = 10;
-
+    Console.WriteLine(box3.Area);
 }
