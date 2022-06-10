@@ -168,4 +168,18 @@ static void Main(string[] args)
         item.Sleep();
         item.Bark();
     }
+
+    List<Animal> animals = new List<Animal>()
+    {
+        new Dog(), new Dog(), new Dog(),
+        new Cat(), new Cat(), new Cat(),
+    };
+
+    foreach (var item in animals)
+    {
+        item.Eat();
+        item.Sleep();
+        /*item.Bark();*/
+        ((Dog)item).Bark();
+    }
 }
