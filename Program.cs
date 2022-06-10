@@ -152,4 +152,20 @@ static void Main(string[] args)
     Console.WriteLine(fibo.Get(1));
     Console.WriteLine(fibo.Get(100));
     /*Console.WriteLine(fibo.Get(1000));*/
+
+    List<Dog> Dogs = new List<Dog> { new Dog(), new Dog(), new Dog() };
+    List<Cat> Cats = new List<Cat> { new Cat(), new Cat(), new Cat() };
+    foreach(var item in Dogs)
+    {
+        item.Eat();
+        item.Sleep();
+        item.Bark();
+    }
+
+    foreach (var item in Cats)
+    {
+        item.Eat();
+        item.Sleep();
+        item.Bark();
+    }
 }
