@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 internal class MyMethod
 {
-    public static bool ABS(int v)
+    public static int ABS(int v)
     {
        if(v < 0)
         {
@@ -11,7 +11,7 @@ internal class MyMethod
         return v;
     }
 
-    public static bool ABS(double v)
+    public static double ABS(double v)
     {
         if (v < 0)
         {
@@ -20,7 +20,7 @@ internal class MyMethod
         return v;
     }
 
-    public static bool ABS(long v)
+    public static long ABS(long v)
     {
         if (v < 0)
         {
