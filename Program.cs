@@ -180,6 +180,13 @@ static void Main(string[] args)
         item.Eat();
         item.Sleep();
         /*item.Bark();*/
-        ((Dog)item).Bark();
+        if(item is Dog)
+        {
+            ((Dog)item).Bark();
+        }
+        else
+        {
+            ((Cat)item).Bark();
+        }
     }
 }
