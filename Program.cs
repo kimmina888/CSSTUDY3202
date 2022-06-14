@@ -188,5 +188,9 @@ static void Main(string[] args)
         {
             ((Cat)item).Bark();
         }
+        var dog = item as Dog;
+        dog.Bark();
+        var cat = item as Cat;
+        cat.Bark();
     }
 }
